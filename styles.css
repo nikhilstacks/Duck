@@ -15,6 +15,10 @@ header{
     text-align: center;
 }
 
+.mobile{
+    display: none;
+}
+
 ul{
     margin: 0;
     padding: 0;
@@ -51,9 +55,31 @@ a:hover{
     height: 200px;
     width: 200px;
 }
+
+/* media queries */
+@media screen and (max-width: 579px){
+    .mobile{
+        display: inline-block;
+    }
+
+    .desktop{
+        display: none;
+    }
+    
+    header{
+        padding-bottom: 80px;
+        padding-top: 80px;
+    }
+
+    .logo{
+        top: 10px;
+    }
+}
+
 section{
     padding: 20px;
     display: flex;
+    flex-wrap: wrap;
 }
 
 div{
