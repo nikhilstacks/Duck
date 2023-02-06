@@ -6,7 +6,13 @@ body{
 
 header{
     background-color: black;
+    background-image: url("images/bakeryBack.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
     color: white;
+    padding-top: 130px;
+    text-align: center;
 }
 
 ul{
@@ -22,14 +28,29 @@ li{
 
 a{
     text-decoration: none;
+    text-transform: uppercase;
+    text-decoration: solid;
+    color: white;
+}
+
+a:hover{
+    text-decoration: underline;
 }
 
 .logo{
+    border-radius: 50%;
+    border: 3px solid black;
+    box-shadow: white 0 0 50px;
     background-color: red;
+    background-image: url("images/logo.jpg");
+    background-size: 200px;
+    background-repeat: no-repeat;
     text-indent: -9999999px;
     display: inline-block;
-    height: 100px;
-    width: 300px;
+    position: relative;
+    top: -80px;
+    height: 200px;
+    width: 200px;
 }
 section{
     padding: 20px;
