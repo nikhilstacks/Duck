@@ -17,8 +17,20 @@ ul{
 li{
     list-style-type: none;
     display: inline;
+    padding-right: 10px;
 }
 
+a{
+    text-decoration: none;
+}
+
+.logo{
+    background-color: red;
+    text-indent: -9999999px;
+    display: inline-block;
+    height: 100px;
+    width: 300px;
+}
 section{
     padding: 20px;
     display: flex;
